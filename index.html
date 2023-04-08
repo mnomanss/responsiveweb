@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>website</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+</head>
+<body>
+
+<!-- headers -->
+
+<header>
+	   <a href="#home" class="logo"><i class="fa-solid fa-basket-shopping"></i>grocery</a>
+<nav>
+		<a href="#home">home</a>
+		<a href="#features">features</a>
+		<a href="#products">products</a>
+		<a href="#categories">categories</a>
+		<a href="#review">review</a>
+		<a href="#blogs">blogs</a>
+</nav>   
+
+<div class="icons">
+	<div id="searchbtn"><i class="fa-solid fa-magnifying-glass" ></i></div>
+	<div id="searchbtn2"><i class="fa-solid fa-cart-shopping"></i></div>
+	<div id="searchbtn3"><i class="fa-solid fa-user"></i></div>
+	<div id="searchbtn4"><i class="fa-solid fa-bars"></i></div>
+</div>
+
+
+<form class="search-form">
+	<input type="text" placeholder="search..." >
+</form>
+
+<div class="cartitemscontainer">
+<div class="cartitem">
+	<span><i class="fa-solid fa-trash"></i></span>
+	<img src="images\b.png" alt="">
+<div class="content">
+	<h3>cart item 1</h3>
+<div class="price">$15.99</div>
+</div>
+	</div>
+
+	<div class="cartitem">
+	<span><i class="fa-solid fa-trash"></i></span>
+	<img src="images\c.png" alt="">
+<div class="content">
+	<h3>cart item 2</h3>
+<div class="price">$17.99</div>
+</div>
+	</div>
+
+	<div class="cartitem">
+	<span><i class="fa-solid fa-trash"></i></span>
+	<img src="images\f.png" alt="">
+<div class="content">
+	<h3>cart item 3</h3>
+<div class="price">$19.99</div>
+</div>
+	</div>
+
+</div>
+
+<form action="#" class="loginform">
+	<h3>login form</h3>
+	<label>first name</label>
+	<input type="text" name="">
+	<label>last name</label>
+	<input type="text" name="">
+	<input type="submit" class="sb">
+</form>
+
+
+
+
+</header>
+
+<div class="mobilenav">
+		<a href="#home">home</a>
+		<a href="#features">features</a>
+		<a href="#products">products</a>
+		<a href="#categories">categories</a>
+		<a href="#review">review</a>
+		<a href="#blogs">blogs</a>
+</div>
+
+<!-- slider -->
+
+<div class="box">
+<video controls loop class="mySlides">
+    <source src="images\slidvid.webm" type="video/webm">
+</video>
+	<img src="images\slidvid2.jpg" class="mySlides">
+		<img src="images\slidvid3.jpg" class="mySlides">
+			<img src="images\slidvid4.jpg" class="mySlides">
+			<div class="btns">
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</div>
+</div>
+
+
+
+<!-- section -->
+
+  <div class="swiper mySwiper">
+  	<h2>This Month's Picks</h2>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      	<div class="grid-container">
+
+    <div class="grid-item">
+<img src="images\s3.png">
+<h2>galaxy s23</h2>
+<button>shop now</button>
+</div>
+
+<div class="grid-item">
+<img src="images\s5.png">
+<h2>galaxy s24</h2>
+<button>shop now</button>
+</div>
+
+ <div class="grid-item">
+<img src="images\s4.png">
+<h2>galaxy s25</h2>
+<button>shop now</button>
+</div>
+
+<div class="grid-item">
+<img src="images\s5.png">
+<h2>galaxy s26</h2>
+<button>shop now</button>
+</div>
+
+ <div class="grid-item">
+<img src="images\s4.png">
+<h2>galaxy s27</h2>
+<button>shop now</button>
+</div>
+
+</div>
+
+</div>
+
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+  </div>
+    </div>
+ 
+
+<div class="textcont">
+	<h2>new wwe</h2>
+	<p>What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+<!-- <div class="imgscr">
+	<img src="images\m2.png">
+    <img src="images\m3.png">
+</div> -->
+
+<div class="footers">
+	<div class="footersbox">
+	<img src="images\m3.png">
+	<h3>games</h3>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
